@@ -21,7 +21,7 @@ export default function Home() {
       <Link className={buttonVariants({
         size: 'lg',
         className: 'mt-5',
-      })} href='/pricing' target='_blank'>
+      })} href='/login' target='_blank'>
         Get started <ArrowRight className="ml-2 h-5 w-5" />
       </Link>
     </MaxWidthWrapper>
