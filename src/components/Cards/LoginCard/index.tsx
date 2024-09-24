@@ -2,18 +2,18 @@ import React from "react";
 
 const LoginCard = () => {
     return(
-        <div className="bg-white w-1/4  ">
-            <h1>Login in <span className="text-orange-600">DoMore</span></h1>
-            <p className="text-[#6a6464]">Your journey if being more organized starts now! We are glad to have you back.</p>
+        <div className="bg-white w-1/2  ">
+            <h1 className="text-3xl">Login in <span className="text-orange-600">DoMore</span></h1>
+            <p className="text-sm text-[#6a6464] pt-2">Your journey if being more organized starts now! We are glad to have you back.</p>
             <form action="">
-                <div className="flex flex-col">
-                    <label htmlFor="">Email</label>
-                    <input type="email" className="border border-gray-300 rounded-sm shadow-md" placeholder="Enter your email..." />
-                    <label htmlFor="">Password</label>
-                    <input type="email" className="border border-gray-300 rounded-sm shadow-md" placeholder="Enter your password..." />
-                    <div>
-                        <button className="bg-orange-600">Login</button>
-                        <p>Do not have an account yet? <span className="text-orange-600 rounded-sm shadow-md">Register</span></p>
+                <div className="flex flex-col ">
+                    <label htmlFor="" className="text-base pt-4">Email</label>
+                    <input type="email" className="py-2 bg-[#F9F3F3] rounded-sm shadow-md" placeholder="Enter your email..." />
+                    <label htmlFor="" className="text-base pt-12">Password</label>
+                    <input type="email" className="py-2 bg-[#F9F3F3] rounded-sm shadow-md" placeholder="Enter your password..." />
+                    <div className="flex flex-col items-center pt-12">
+                        <button className="bg-orange-600 py-2 rounded-sm shadow-md w-full text-white font-bold">Login</button>
+                        <p className="pt-3">Do not have an account yet? <span className="text-orange-600 ">Register</span></p>
                     </div>
                 </div>
             </form>

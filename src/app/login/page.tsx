@@ -4,18 +4,12 @@ import Image from 'next/image';
 
 const Login = () => {
   return (
-    <div className="h-screen flex w-full">
-      <div className="w-1/2 relative">
-        <Image 
-          src="/login.jpg" 
-          quality={100} 
-          alt="Login Image" 
-          fill 
-          className="rounded-md"
-        />
+    <div className="h-full flex w-screen">
+      <div className="w-1/2 relative pt-8 pl-12">
+        <img src="/login.jpg" className="rounded-md shadow-md" alt="hola" />
       </div>
       
-      <div className="w-1/2 flex items-center justify-center">
+      <div className="w-1/2 pt-12 flex items-center justify-center">
         <LoginCard />
       </div>
     </div>
